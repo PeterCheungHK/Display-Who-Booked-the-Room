@@ -13,13 +13,13 @@ To change this behavior and display the name of the person who booked the room, 
    Connect-ExchangeOnline -UserPrincipalName Demo@contoso.com
    ```
 
-2. **Get the Calendar Processing Settings for the Room**:
-   2. **獲取房間的日曆處理設置**：
+2. **Display  the Calendar Processing Settings for the Room**:
+   2. **顯示房間的日曆處理設置**：
 
    ```powershell
    Get-CalendarProcessing -Identity "DemoRoom" | Format-List
    ```
-***顯示配置訊息
+
    
 
 3. **Set the Mailbox Folder Permission**:
