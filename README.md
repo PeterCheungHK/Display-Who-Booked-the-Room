@@ -19,6 +19,8 @@ To change this behavior and display the name of the person who booked the room, 
    ```powershell
    Get-CalendarProcessing -Identity "DemoRoom" | Format-List
    ```
+***顯示配置訊息
+   
 
 3. **Set the Mailbox Folder Permission**:
    3. **設置郵箱文件夾權限**：
